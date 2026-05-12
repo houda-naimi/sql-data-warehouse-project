@@ -25,13 +25,15 @@ It refers to a **data warehouse structured into 3 layers**:
 ---
 
 ## Repository Structure
+
+```
 etl-medallion-architecture/
-|
-|── datasets/                      # Raw datasets (ERP and CRM sources)
-|
-|── docs/                         # Project documentation and architecture details
-|
-|── scripts/                      # ETL SQL scripts organized by Medallion layers
+│
+├── datasets/                      # Raw datasets (ERP and CRM sources)
+│
+├── docs/                         # Project documentation and architecture details
+│
+├── scripts/                      # ETL SQL scripts organized by Medallion layers
 │   │
 │   ├── bronze/                   # Raw data ingestion scripts
 │   ├── silver/                   # Data cleaning and transformation scripts
@@ -40,4 +42,5 @@ etl-medallion-architecture/
 ├── tests/                        # Data quality checks and validation scripts
 │
 └── README.md                     # Project overview and usage instructions
+```
 
