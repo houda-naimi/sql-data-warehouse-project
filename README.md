@@ -41,6 +41,6 @@ etl-medallion-architecture/
 │
 ├── tests/                        # Data quality checks and validation scripts
 │
-└── README.md                     # Project overview and usage instructions
+└── README.md                    
 ```
 
