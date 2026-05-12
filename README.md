@@ -6,16 +6,13 @@ Built a data warehouse solution using SQL Server and CSV files, implementing a *
 ---
 
 ## What is Medallion Architecture?
-— **Medallion Architecture is a well-known data engineering pattern**, widely used in modern data platforms.
+— **Medallion Architecture is a data engineering pattern**, widely used in modern data platforms.
 
 It refers to a **data warehouse structured into 3 layers**:
 
 - 🥉 **Bronze layer**: raw data ingested from source files (CSV, APIs, logs)
 - 🥈 **Silver layer**: cleaned, standardized, and transformed data
 - 🥇 **Gold layer**: business-ready data used for reporting and analytics
-
-This approach is widely used in modern data engineering and is popularized by platforms such as Databricks.
-
 ---
 
 ## Project Workflow
@@ -28,3 +25,19 @@ This approach is widely used in modern data engineering and is popularized by pl
 ---
 
 ## Repository Structure
+
+etl-medallion-architecture/
+
+datasets/ # Raw datasets (ERP and CRM sources)
+
+docs/ # Project documentation and architecture details
+
+scripts/ # ETL SQL scripts organized by Medallion layers  
+├── bronze/ # Raw data ingestion scripts  
+├── silver/ # Data cleaning and transformation scripts  
+└── gold/ # Analytical models and final business-ready datasets  
+
+tests/ # Data quality checks and validation scripts  
+
+README.md # Project overview and usage instructions
+
