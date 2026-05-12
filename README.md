@@ -10,9 +10,9 @@ Built a data warehouse solution using SQL Server and CSV files, implementing a *
 
 It refers to a **data warehouse structured into 3 layers**:
 
-- 🥉 **Bronze layer**: raw data ingested from source files (CSV, APIs, logs)
-- 🥈 **Silver layer**: cleaned, standardized, and transformed data
-- 🥇 **Gold layer**: business-ready data used for reporting and analytics
+- **Bronze layer**: raw data ingested from source files (CSV, APIs, logs)
+- **Silver layer**: cleaned, standardized, and transformed data
+- **Gold layer**: business-ready data used for reporting and analytics
 ---
 
 ## Project Workflow
